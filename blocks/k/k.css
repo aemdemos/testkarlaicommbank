@@ -1,0 +1,35 @@
+
+.k {
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size-s);
+  color: var(--text-color);
+  background-color: var(--background-color);
+  padding: 16px;
+  line-height: 1.5;
+}
+
+.k-heading {
+  font-size: var(--heading-font-size-xl);
+  font-weight: bold;
+  margin-bottom: 16px;
+  color: var(--text-color);
+}
+
+.k-list-item {
+  margin-bottom: 16px;
+  font-size: var(--body-font-size-s);
+  line-height: 1.6;
+}
+
+.k-link {
+  color: var(--link-color);
+  text-decoration: none;
+  font-size: var(--body-font-size-s);
+  padding: 2px 0;
+  border-radius: 4px;
+}
+
+.k-link:hover {
+  color: var(--link-hover-color);
+  text-decoration: underline;
+}

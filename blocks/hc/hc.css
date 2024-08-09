@@ -1,0 +1,35 @@
+
+.hc {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+.hc-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.hc-image img {
+  max-width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.hc-link {
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+}
+
+.hc-link a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.hc-link a:hover {
+  text-decoration: underline;
+}

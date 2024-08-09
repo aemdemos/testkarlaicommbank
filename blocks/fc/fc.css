@@ -1,0 +1,39 @@
+
+.fc {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background-color: var(--background-color);
+}
+
+.fc-section {
+  flex: 1;
+  margin: 0 20px;
+}
+
+.fc-heading {
+  font-size: var(--heading-font-size-m);
+  font-weight: bold;
+  color: var(--text-color);
+  margin-bottom: 10px;
+}
+
+.fc-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.fc-list-item {
+  margin-bottom: 10px;
+}
+
+.fc-link {
+  font-size: var(--body-font-size-xs);
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+.fc-link:hover {
+  text-decoration: underline;
+}

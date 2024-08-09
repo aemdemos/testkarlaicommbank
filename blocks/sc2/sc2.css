@@ -1,0 +1,31 @@
+
+.sc2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.sc2-article {
+  background-color: white;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%);
+  padding: 20px;
+  width: 30%;
+  box-sizing: border-box;
+}
+
+.sc2-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.sc2-paragraph {
+  font-size: 16px;
+  color: #000;
+}
